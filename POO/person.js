@@ -32,5 +32,5 @@ Jose.hobbies= ["andar", "viajar", "comer", "correr"]
 console.log(Jose.imc);
 console.log("Su edad es" + edad() + "anios");
 Jose.printAll()
- export {Persona};
+ export default {Persona};
 
