@@ -14,15 +14,11 @@
 
 
     printAll(){
-        for(let i=0; i<this.hobbies.lenght; i++){
-            console.log("Sus hobbies son: " + this.hobbies[i]); }
-      console.log("su color de ojos es: " + this.colorOjos);
-      console.log("su altura es: " + this.altura + " m");
-      console.log( "su peso es : " + this.peso + " kg" );
-      console.log("su nacionalidad es: " + this.nacionalidad);
-
+        //crear una variable concatenada, y despues return con la variable
+        let datos
+        datos = [ this.colorOjos + this.altura + this.peso + this.nacionalidad]
+        return datos;
     }
-
  }
 module.exports = {Persona};
 
